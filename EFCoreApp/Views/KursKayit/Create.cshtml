@@ -1,0 +1,20 @@
+﻿@model KursKayit
+
+<h2>Kurs Kaydı Ekle</h2>
+<hr>
+<form asp-controller="KursKayit" asp-action="Create" method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="OgrenciId">@Html.DisplayNameFor(k => k.OgrenciId)</label>
+        <select class="form-select" asp-items="ViewBag.Ogrenciler" asp-for="OgrenciId">
+            <option value="" selected>Seçiniz</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" asp-for="KursId">@Html.DisplayNameFor(k => k.KursId)</label>
+        <select class="form-select" asp-items="ViewBag.Kurslar" asp-for="KursId">
+            <option value="" selected>Seçiniz</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>

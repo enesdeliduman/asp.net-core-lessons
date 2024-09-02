@@ -1,0 +1,11 @@
+﻿@model Ogretmen
+<p>
+    <b>
+        @Model.AdSoyad</b> isimli öğretmeni silmek istediğinize emin misiniz?
+</p>
+
+<form asp-controller="Ogretmen" asp-action="DeleteConfirm" method="post">
+    <input type="hidden" asp-for="@Model.OgretmenId" />
+    <button type="submit" class="btn btn-danger">Evet</button>
+    <a asp-controller="Ogretmen" asp-action="Index" class="btn btn-primary">Hayır</a>
+</form>
