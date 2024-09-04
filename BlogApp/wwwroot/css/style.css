@@ -1,0 +1,25 @@
+body{
+    background-color: #eff2f6;
+    min-width: 100vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+}
+
+.input-validation-error{
+    border: 1px solid red ;
+}
+
+.list-image{
+    width: 250px;
+}
+
+label{
+    user-select: none;
+}

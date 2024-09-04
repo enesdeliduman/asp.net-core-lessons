@@ -1,0 +1,84 @@
+﻿@model Post
+<div class="row">
+    <div class="col-lg-8">
+        <div class="bg-white p-4">
+            <h1 class="h4 mb-4">@Model.Title</h1>
+            <div class="tags">
+                @if (Model.Tags != null && Model.Tags.Any())
+                {
+                foreach (var tag in Model.Tags)
+                {
+                <a href="/posts/tag/@tag.Url" class="badge bg-@tag.Color bg-opacity-10 text-@tag.Color mb-2 fw-bold">
+                    @tag.Text
+                </a>
+                }
+                }
+            </div>
+            <img src="~/img/@Model.Image" class="img-fluid rounded">
+            <ul class="list-inline my-3">
+                <li class="list-inline-item ">
+                    <i class="bi bi-calendar mx-2"></i>@Model.PublishedOn.ToString("m")
+                </li>
+                <li class="list-inline-item ">
+                    <i class="bi bi-person-circle mx-2"></i><a asp-controller="User" asp-action="Profile"
+                        asp-route-username="@Model.User.UserName">@Model.User.Name</a>
+                </li>
+            </ul>
+            <hr class="py-3">
+            <div>@Model.Content</div>
+        </div>
+        <div class="bg-white mt-3">
+            <div class="card border-0">
+                <div class="card-header pb-0">
+                    <h4><span id="CommentCount">@Model.Comments.Count()</span> adet yorum</h4>
+                </div>
+                <div class="card-body">
+                    <div id="comments">
+                        @foreach(var comment in Model.Comments){
+                        <div class="my-4 d-flex">
+                            <img src="/img/@comment.User.Image" class="avatar rounded-circle float-start me-3">
+                            <div>
+                                <div class="mb-2 d-flex">
+                                    <h6 class="me-2">
+                                        <a asp-controller="User" asp-action="Profile" asp-route-username="@Model.User.UserName">@Model.User.Name</a>
+                                    </h6>
+                                    <small>@comment.PublishedOn.ToString("M")</small>
+                                </div>
+                                <p>@comment.Text</p>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                    @if (User.Identity!.IsAuthenticated)
+                    {
+                    <hr class="my-4">
+                    <h4 class="mb-3">Yorum ekle</h4>
+                    <form asp-action="AddComment" class="col-md-12" method="post">
+                        <input type="hidden" name="PostId" id="PostId" value="@Model.PostId">
+                        <div class="mb-3">
+                            <label for="Text" class="form-label">Yorum</label>
+                            <textarea type="text" name="Text" id="Text" class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary" id="btnYorumKayit" type="submit">Gönder</button>
+                        </div>
+                    </form>
+                    }
+
+                    else{
+                    <a asp-controller="User" asp-action="Login">Yorum yapmak icin giris yapiniz</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <vc:tags-menu></vc:tags-menu>
+        <vc:new-posts></vc:new-posts>
+    </div>
+</div>
+
+@section Scripts{
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+}

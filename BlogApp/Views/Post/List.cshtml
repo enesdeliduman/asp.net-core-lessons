@@ -1,0 +1,33 @@
+﻿@model List<Post>
+
+<div class="row">
+    <div class="col-12">
+        <h2>Post List</h2>
+        <a asp-controller="Post" asp-action="Create" class="btn btn-primary">New post</a>
+        <hr>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>isActive</th>
+                    <th style="width: 125px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="/img/@item.Image" class="img-fluid list-image" /></td>
+                        <td>@item.Title</td>
+                        <td>@item.IsActive</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.PostId" class="btn btn-sm btn-primary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.PostId" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

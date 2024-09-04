@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|c:\\users\\root\\desktop\\256\\asp.net-core-dersleri\\blogapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|c:\\users\\root\\desktop\\256\\asp.net-core-dersleri\\blogapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|c:\\users\\root\\desktop\\256\\asp.net-core-dersleri\\blogapp\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|solutionrelative:views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|c:\\users\\root\\desktop\\256\\asp.net-core-dersleri\\blogapp\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71E92FE8-4702-48E1-AA1F-3037587BF6EF}|BlogApp.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T20:21:30.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\_ViewImports.cshtml*",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T20:21:30.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\PostController.cs*",
+              "RelativeToolTip": "Controllers\\PostController.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwBYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T20:20:23.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Index.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T20:19:40.562Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
