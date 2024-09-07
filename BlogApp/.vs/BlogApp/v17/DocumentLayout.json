@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\UserController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\User\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Views\\User\\Profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\PostCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\PostCreateViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\PostController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PostController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T10:00:12.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T09:23:04.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T09:23:03.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:20:18.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\PostCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\PostCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Models\\PostCreateViewModel.cs",
+              "RelativeToolTip": "Models\\PostCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:20:16.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:19:02.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:59:43.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\root\\Desktop\\256\\ASP.NET-Core-Dersleri\\BlogApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T19:55:02.117Z",
+              "EditorCaption": ""
             }
           ]
         }

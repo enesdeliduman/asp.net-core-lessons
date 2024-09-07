@@ -82,7 +82,7 @@ namespace BlogApp.Controllers
                     }
                     var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
                     var authProperties = new AuthenticationProperties
-                    {
+                    {g
                         IsPersistent = true,
                     };
                     await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
